@@ -2,7 +2,7 @@ import random
 from art import logo
 from os import system
 
-cls = lambda: system('cls')
+cls = lambda: system('cls')                    # this command is used in VS code IDE to clear the console during runtime
 
 def deal_card():
     """ Takes the deck of cards and draws the random card out of it """
